@@ -4,7 +4,8 @@ import "./App.css";
 
 
 // const API_URL = "http://localhost:5000";
-const API_URL = "https://backend-notes-application-lq2e.onrender.com/";
+const API_URL = "https://backend-notes-application-lq2e.onrender.com";
+
 
 export default function App() {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
